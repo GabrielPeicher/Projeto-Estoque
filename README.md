@@ -140,10 +140,12 @@ Todos os retornos estão em formato JSON.
 Exemplo POST:
 ```
 {
-  "nome": "Caderno",
-  "descricao": "Caderno 200 folhas",
-  "preco": 12.5,
-  "quantidadeMinima": 5
+"codigo": 45871,
+"quantidade": 12,
+"valor": 349.90,
+"modelo": {
+"id_modelo": 102
+  }
 }
 ```
 
