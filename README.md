@@ -12,8 +12,6 @@ O Projeto-Estoque é uma API REST criada para prática e uso real em sistemas de
 
 - Cadastro de produtos
 - Atualização e remoção
-- Registro de entradas e saídas
-- Relatório de estoque atual
 - Validações básicas
 
 ---
@@ -25,7 +23,7 @@ O Projeto-Estoque é uma API REST criada para prática e uso real em sistemas de
 - Spring Web
 - Spring Data JPA
 - Maven
-- Banco de dados (MySQL, H2, PostgreSQL etc)
+- Banco de dados (MySQL, PostgreSQL etc)
 - Lombok (opcional)
 
 ---
@@ -105,13 +103,13 @@ Para rodar o projeto, instale:
    spring.jpa.hibernate.ddl-auto=update
 ```
 
-5. Executar a aplicação:
+4. Executar a aplicação:
    
    ./mvnw spring-boot:run
    ou
    mvn spring-boot:run
 
-6. Acessar a API em:
+5. Acessar a API em:
    
    http://localhost:8080
 ---
@@ -155,13 +153,6 @@ Exemplo POST:
 
 ---
 
-### Relatórios
-
-GET /estoque/atual  
-Retorna o estoque atual de todos os produtos
-
----
-
 ## Testes
 
 Executar:
@@ -187,12 +178,6 @@ mvn test
 3. Commit (git commit -m "Feature X")  
 4. Push (git push origin minha-feature)  
 5. Abra um Pull Request  
-
----
-
-## Licença
-
-Escolha ou adicione uma licença (MIT recomendado).
 
 ---
 
